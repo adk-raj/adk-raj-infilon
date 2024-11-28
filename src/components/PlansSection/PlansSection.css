@@ -1,0 +1,186 @@
+.plans-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+}
+
+.plans-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 30px;
+}
+
+.plans-section p.section-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: #212529;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.cards-container {
+  display: flex;
+  gap: 25px; 
+  justify-content: center;
+  flex-wrap: nowrap; 
+  margin-top: 20px;
+}
+
+
+.free-card {
+  width: 472px;
+  height: 634px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  position: relative;
+  top: 40px;
+  right: 44px;
+  bottom: 40px;
+  left: 05px;
+  gap: 10px;
+}
+
+.free-card .card-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #212529;
+}
+
+.free-card .price {
+  font-weight: 700;
+  font-size: 36px;
+  color: #212529;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.free-card .features-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.free-card .features-list li {
+  font-weight: 400;
+  font-size: 16px;
+  color: #212529;
+  margin: 10px 0;
+}
+
+.free-card .get-started-btn {
+  width: 166px;
+  height: 51px;
+  border-radius: 8px;
+  border: 1px solid #ffe492;
+  background-color: white;
+}
+
+/* Personal Plan Styles */
+.personal-card {
+  width: 472px;
+  height: 761px;
+  background-color: #043873;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.14);
+}
+
+.personal-card .card-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.personal-card .price {
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffe492;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.personal-card .features-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.personal-card .features-list li {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.personal-card .get-started-btn {
+  width: 166px;
+  height: 51px;
+  border-radius: 8px;
+  border: 1px solid #4f9cf9;
+  background-color: #4f9cf9;
+}
+
+/* Organization Plan Styles */
+.organization-card {
+  width: 472px;
+  height: 634px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  position: relative;
+  top: 40px;
+  right: 44px;
+  bottom: 40px;
+  left: 10px;
+}
+
+.organization-card .card-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #212529;
+}
+
+.organization-card .price {
+  font-weight: 700;
+  font-size: 36px;
+  color: #212529;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.organization-card .features-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.organization-card .features-list li {
+  font-weight: 400;
+  font-size: 16px;
+  color: #212529;
+  margin: 10px 0;
+}
+
+.organization-card .get-started-btn {
+  width: 166px;
+  height: 51px;
+  border-radius: 8px;
+  border: 1px solid #ffe492;
+  background-color: white;
+}
+
+
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .plan-card {
+    width: 100%;
+  }
+
+  .plans-section h2 {
+    font-size: 28px;
+  }
+}
